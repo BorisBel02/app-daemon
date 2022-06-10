@@ -3,3 +3,5 @@ app-daemon.service executes app.jar and restarts it on fail.
 Process won't restart if it has been started more than 10 times in 30 seconds interval.
 
 There is no [Install] section because service supposed to start manually.
+
+app-daemon.service was copied in /etc/systemd/system and started successfuly.
